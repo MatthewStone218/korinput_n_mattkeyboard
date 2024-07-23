@@ -4,6 +4,8 @@ depth = -10001;
 
 clicked = false;
 
+y = ystart+obj_mattkeyboard_bg.sprite_height;
+
 function click()
 {
 	if(is_struct(global.__mattkeyboard_focus__))

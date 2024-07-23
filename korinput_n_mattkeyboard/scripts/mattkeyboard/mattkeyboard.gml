@@ -23,6 +23,8 @@ global.__mattkeyboard_hide_frame__ = -1;
 global.__mattkeyboard_showen_frame__ = 2;
 global.__mattkeyboard_focus__ = noone;
 global.__mattkeyboard_shift__ = false;
+global.__mattkeyboard_init_width__ = room_width;
+global.__mattkeyboard_init_height__ = room_height;
 
 function __mattkeyboard_step__()
 {
